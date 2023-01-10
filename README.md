@@ -1,5 +1,10 @@
 # subgraph-Nft
 
+### Backend, script and smart contract lies at [Nft-Market](https://github.com/amit-62/Nft-Market)
+### Frontend and UI lies at [Nft-frontend](https://github.com/amit-62/Nft-Market-GraphUI)
+### Subgraph protocol lies at [subgraph-Nft](https://github.com/amit-62/subgraph-Nft)
+
+
 # Quickstart
 
 1. Install Subgraph CLI
@@ -15,7 +20,7 @@ Use Goerli as the network.
 3. Initialize Subgraph
 
 ```
-graph init --studio nft-marketplace
+graph init --studio nft-market
 ```
 
 4. Authenticate CLI
@@ -43,7 +48,7 @@ graph codegen && graph build
 Replace `VERSION_NUMBER_HERE` with a version number like `0.0.1`. 
 
 ```
-graph deploy --studio nft-marketplace -l VERSION_NUMBER_HERE
+graph deploy --studio nft-market -l VERSION_NUMBER_HERE
 ```
 
 8. View your UI
@@ -51,5 +56,5 @@ graph deploy --studio nft-marketplace -l VERSION_NUMBER_HERE
 Back in your hardhat project, mint and list an NFT with:
 
 ```
-yarn hardhat run scripts/mint-and-list-item.js --network goerli
+yarn hardhat run scripts/mint-and-list.js --network goerli
 ```
